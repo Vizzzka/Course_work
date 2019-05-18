@@ -25,7 +25,7 @@ SECRET_KEY = '13lb3mru+*us=(xjvebpbt@nredmy+k%lzbcm63a9evdb(u=d('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://vizzzka.pythonanywhere.com']
 
 
 # Application definition
