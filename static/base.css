@@ -5,3 +5,7 @@ nav{
 #empty{
     margin-top: 50px;
 }
+
+#map{
+    border-radius: 20px;
+}
