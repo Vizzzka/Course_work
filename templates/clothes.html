@@ -3,12 +3,15 @@
 
 {% block body %}
     <div id="space" style="margin-bottom: 100px"></div>
-    <h2>We advise you to wear: </h2>
-    <ul>
-        {% for element in clothes %}
-            <li>{{ element }}</li>
-        {% endfor %}
+    <div class="container">
+        <div class="col-sm-6 col-sm-offset-3">
+            <h2>We advise you to wear: </h2>
+            <ul>
+                {% for element in clothes %}
+                    <li>{{ element }}</li>
+                {% endfor %}
 
-    </ul>
-    
+            </ul>
+        </div>
+    </div>
 {% endblock %}
