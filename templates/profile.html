@@ -66,7 +66,7 @@
             console.log('f');
             $.ajax({
                 type: "POST",
-                url: "http://127.0.0.1:8000/change_wardrobe/",
+                url: "http://vizzzka.pythonanywhere.com/change_wardrobe/",
                 data: { 'checkboxes': JSON.stringify(arr),
                         csrfmiddlewaretoken:$('input[name=csrfmiddlewaretoken]').val()
                 },
