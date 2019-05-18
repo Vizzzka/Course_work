@@ -9,3 +9,10 @@ nav{
 #map{
     border-radius: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  #map {
+    height: 80%;
+    width: 90%;
+  }
+}
