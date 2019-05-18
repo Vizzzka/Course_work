@@ -9,10 +9,17 @@ nav{
 #map{
     border-radius: 20px;
 }
+body{
+    background-color: #999999;
+}
 
 @media only screen and (max-width: 600px) {
-  #map {
-    height: 80%;
-    width: 90%;
+  body{
+      background-color: #999999;
   }
+  #map {
+    height: 500px;
+    width: 350px;
+  }
+
 }
