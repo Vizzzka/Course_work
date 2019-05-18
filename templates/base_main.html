@@ -70,8 +70,11 @@
 
 
         <!--The div element for the map -->
+
         <div id="map"></div>
+        {% if user.is_authenticated %}
             <button id = 'Go' type="button" class="btn btn-info btn-lg" onclick="get_weather()">Go!</button>
+        {% endif %}
 
     <script>
         // Initialize and add the map
