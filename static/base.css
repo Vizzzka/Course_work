@@ -9,6 +9,10 @@ nav{
 #map{
     border-radius: 20px;
 }
+#Go{
+    border: 3px solid black;
+}
+
 body{
     background-color: #999999;
 }
