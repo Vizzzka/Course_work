@@ -1,6 +1,6 @@
 # Clothes_advisor
 
-> Helps to choose clothes appropriate for the weather.
+> Helps to choose clothes appropriate for the weather. http://vizzzka.pythonanywhere.com/
 
 
 
@@ -59,3 +59,4 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 [https://github.com/yourname/github-link](https://github.com/dbader/)
 
 # Contributing
+
